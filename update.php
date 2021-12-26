@@ -36,8 +36,8 @@
   <div class="container">
   <form method="post" action="update.php">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Id</label>
-    <input class="form-control" id="id" name="id" value="<?php echo "$id"?>">
+    <!-- <label for="exampleInputEmail1" class="form-label">Id</label> -->
+    <input type="hidden" class="form-control" id="id" name="id" value="<?php echo "$id"?>">
     </div>
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Name</label>
